@@ -1,0 +1,23 @@
+{
+  "name": "employee-manager-lit",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "wds --open --watch --app-index index.html --node-resolve",
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --watch"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^3.2.2",
+    "@web/dev-server": "^0.4.6",
+    "@web/test-runner": "^0.20.2",
+    "@web/test-runner-chrome": "^0.18.1",
+    "c8": "^10.1.3"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.5",
+    "lit": "^3.1.0",
+    "sinon": "^21.0.0"
+  }
+}
