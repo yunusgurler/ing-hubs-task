@@ -36,10 +36,6 @@ No backend—data is persisted in the browser via `localStorage`.
 ---
 
 ## 🚀 Getting Started
-
-### Run without install
-Just open `index.html` in a modern browser (uses import maps).
-
 ### Run with dev server
 ```bash
 npm i
