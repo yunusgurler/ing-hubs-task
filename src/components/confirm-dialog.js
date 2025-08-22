@@ -24,14 +24,16 @@ export class ConfirmDialog extends LitElement {
       inset: 0;
       background: rgba(17, 24, 39, 0.45);
       backdrop-filter: blur(2px);
-      display: grid;
-      place-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       z-index: 9999;
       padding: 16px;
+      padding-right: 32px
     }
 
     .dialog {
-      width: 420px;
+      width: 400px;
       max-width: 100%;
       background: #fff;
       border: 1px solid var(--border);
